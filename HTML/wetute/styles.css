@@ -1,0 +1,35 @@
+.title1{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 670px;
+    height: 60px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 40px;
+    line-height: 60px;
+}
+
+.title1hash1{
+    width: 190px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(64, 64, 64, 0.6);
+}
+
+.title1hash2{
+    width: 293px;
+    height: 30px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 30px;
+    color: rgba(64, 64, 64, 0.6);
+}
+
+
+
