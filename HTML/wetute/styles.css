@@ -57,6 +57,15 @@ img{
 
 
 body{
-    background-color: rgb(225, 225, 225);
+    background-color: whitesmoke;
 }
 
+
+
+.firstbox {
+    display: flex;
+    width: 340px;
+    padding: 120px;
+    border: 1px solid gray;
+    margin: 0;
+  }

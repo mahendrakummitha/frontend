@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family: 'poppins', sans-serif;
+    background: rgb(255, 255, 255);
+}
+
+a{
+    outline: none;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+h2{
+    margin: 0;
+    padding: 0;
+    font-family: poppins, sans-serif;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.About{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    margin: 60px 0 15px 0;
+}
+
+.About:first-child{
+    margin-top: 30px;
+}
+
+.About h2{
+    font-size: 32px;
+    font-weight: 1000;
+    color: rgb(255, 136, 0);
+    letter-spacing:2px;
+}
+
+/* .About {   
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    max-width: 1100px;
+    margin: 0 auto;
+} */
+
+ .one1{
+    width:50%;
+    padding: 15px;
+    } 
+
+.ptable-item{
+    width: 50%;
+     padding: 15px;
+} 
+
+.ptable-single{
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+}
+
+.hi{
+    position: relative;
+    width: 100%;
+    overflow: hidden; 
+}
+
+
+.header, .body, .footer {
+position: relative;
+width: 100%;
+text-align: center;
+background:#ffffff ;
+overflow: hidden;
+}
+
+
+.pricing-table .ptable-header,
+.pricing-table .ptable-body,
+.pricing-table .ptable-footer {
+position: relative;
+width: 100%;
+text-align: center;
+background:#ffffff ;
+overflow: hidden;
+}
+
+
+.title,.price,.description,.action{
+position: relative;
+width: 100%;
+text-align: center;
+}
+
+
+.pricing-table .ptable-title,
+.pricing-table .ptable-price,
+.pricing-table .ptable-description,
+.pricing-table .ptable-action{
+position: relative;
+width: 100%;
+text-align: center;
+}
+
+.one1:hover{
+    box-shadow: 0 0 10px #999999;
+}
+
+.pricing-table.table .ptable-single:hover{
+    box-shadow: 0 0 10px #999999;
+}
+
+
+.header{
+    padding: 30px 0 50px 0;
+    background: blueviolet;
+}
+
+.pricing-table.table .ptable-header{
+    padding: 30px 0 50px 0;
+    background: #d909a5;
+}
+
+
+
+.pricing-table.table .ptable-icon{
+    margin-bottom: 15px;
+    }
+
+.pad{
+    margin-bottom: 25px;
+}
+
+
+.pricing-table.table .ptable-icon i{
+    display: inline-block;
+    color: orange;
+    font-size: 45px;
+}
+
+.pad i{
+    display: inline-block;
+    color: #ffffff;
+    font-size: 45px;
+}
+
+/* this is for tp midlles titles */
+.pricing-table.table .ptable-title h2{
+    color: silver;
+    font-size: 24px;
+    font-weight: 300;
+    margin-left: 2px;
+}
+
+.title h2{
+    color: silver;
+    font-size: 24px;
+    font-weight: 300;
+    margin-left: 2px;
+}
+
+/* price dont */
+
+.pricing-table.table .ptable-price h2{
+    color: #ffffff;
+    font-size: 60px;
+    font-weight: 900;
+    margin-left: 15px;
+    }
+
+.price h2{
+    color: #ffffff;
+    font-size: 50px;
+    font-weight: 900;
+    margin-left: 15px;
+}
+
+.pricing-table.table .ptable-price h2 small{
+    position: absolute;
+    font-size: 18px;
+    font-weight: 900;
+    margin-left: -15px;
+    margin-top: 16px;
+}
+
+.price h2 small{
+    padding-right: 90px;
+    position: absolute;
+    font-size: 18px;
+    font-weight: 900;
+    margin-left: -15px;
+    margin-top: 16px;
+}
+
+
+
+
+
+
