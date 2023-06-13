@@ -9,6 +9,10 @@
     line-height: 60px;
 }
 
+.firstbox{
+    display: flex;
+}
+
 .title1hash1{
     width: 190px;
     height: 30px;

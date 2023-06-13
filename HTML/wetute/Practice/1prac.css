@@ -52,12 +52,12 @@ p{
 } */
 
  .one1{
-    width:50%;
+    width:33.3%;
     padding: 15px;
     } 
 
 .ptable-item{
-    width: 50%;
+    width: 33.3%;
      padding: 15px;
 } 
 
@@ -192,13 +192,134 @@ text-align: center;
 }
 
 .price h2 small{
-    padding-right: 90px;
     position: absolute;
-    font-size: 18px;
+    font-size: 11px;
     font-weight: 900;
     margin-left: -15px;
     margin-top: 16px;
 }
+
+.price h2 span{
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 3px;
+}
+
+.pricing-table.table .ptable-price h2 span{
+    font-size: 16px;
+    font-weight: 300;
+    margin-left: 3px;
+}
+
+.pricing-table.table .ptable-body{
+    padding: 30px 0;
+    background: #a61818;
+    border-radius: 30px 30px 0 0;
+    margin-top: -30px;
+}
+
+.body{
+    padding: 30px 0;
+    background: #128d4d;
+    border-radius: 30px 30px 0 0;
+    margin-top: -30px;
+}
+
+
+.pricing-table.table .ptable-description ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.description ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.pricing-table.table .ptable-description ul li{
+    color: #dbb700;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 7px;
+}
+
+.description ul li{
+    color: #ea7dd8;
+    font-size: 14px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    padding: 7px;
+}
+
+
+.pricing-table.table .ptable-description ul li:last-child{
+    border: none;
+}
+
+.description ul li:last-child{
+    border: none;
+}
+
+.pricing-table.table .ptable-footer{
+    padding-bottom: 30px;
+    background: #55c7d4;
+}
+
+.footer{
+    padding-bottom: 30px;
+    background: #5b371a;
+}
+
+.pricing-table.table .ptable-action a{
+    display: inline-block ;
+    padding: 10px 20px;
+    font-family: poppins;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    background: #d909a5;
+    border-radius: 50px;
+}
+
+.action a{
+    display: inline-block ;
+    padding: 10px 20px;
+    font-family: poppins;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    background: #d909a5;
+    border-radius: 50px;
+}
+
+.pricing-table.table .ptable-action a i{
+    margin-right: 5px;
+}
+
+.action a i{
+    margin-right: 5px;
+}
+
+.pricing-table.table .ptable-action a:hover{
+    background: #8400db;
+}
+
+.action a:hover{
+    background: #d58e24;
+}
+
+
+
+
+
+
+
+
 
 
 
