@@ -1,0 +1,73 @@
+What is bootstrap ?
+
+->Open source front end framework, built based on:HTML, CSS and JavaScript
+
+->Front end framework 
+-HTML & CSS templates and classes 
+-JavaScript widgets
+-Responsive Layout
+
+Avantages of Bootstrap?
+
+-Support in all Web Browsers
+-Development in faster and easier way
+-Responsiveness
+
+Some of Bootstrap components that make popular are:
+
+-NavBar
+-Carousel
+-Cards
+-Dropdown
+-Accordion
+-modal
+-Form
+-Button
+Badge
+Tooltip
+..........etc
+
+differnce between 3 and 4
+
+-CSS flexbox
+-from LESS to SASS
+-Colors
+-Buttons
+-REMs & EMs
+New Breakpoint[xl]
+
+Reboot
+
+-makes styles consistent across different browsers and platforms
+
+role of Bootstrap
+
+-to custom style the default style
+
+
+breakpoints
+
+xs<576<=
+sm<786<=
+md<992<=
+lg<1200<=
+
+
+flexbox
+
+-New and modern technique
+-improves the way of aligning elements
+-allows us to avoid use of floats
+-full support in all modern browsers
+-CSS flexible layout module
+-it is used to manage alignment of items, directions and order in the container
+
+
+
+
+
+
+
+
+
+
