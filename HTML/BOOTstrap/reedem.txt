@@ -62,8 +62,10 @@ flexbox
 -CSS flexible layout module
 -it is used to manage alignment of items, directions and order in the container
 
+difference-------
+flexcontainer:
 
-
+flexitems:
 
 
 

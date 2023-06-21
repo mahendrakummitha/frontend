@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <style>
+      .list-group {
+        width: 33.3%;
+        height: 50%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <h3 style="text-align: center; color: red">
+      Hi.. there click on the home page
+    </h3>
+    <ul class="nav nav-tabs">
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="tab" href="#home">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="tab" href="#link1">Link1</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" data-bs-toggle="tab" href="#link2">Link2</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a
+          class="nav-link dropdown-toggle"
+          data-bs-toggle="dropdown"
+          href="#link3"
+          >Dropdown</a
+        >
+        <ul class="dropdown-menu">
+          <li class="dropdown-item">MPC</li>
+          <li class="dropdown-item">BiPC</li>
+          <li class="dropdown-item">MBBS</li>
+          <li class="dropdown-item">Intermediate</li>
+        </ul>
+      </li>
+    </ul>
+    <div class="tab-content">
+      <div class="tab-pane container" id="home">
+        <h1 style="text-align: center; background-color: blueviolet">
+          Home page
+        </h1>
+        <div class="d-flex">
+          <div style="padding: 10px">
+            <div class="card" style="width: 20rem; height: 20rem">
+              <img
+                class="card-img-top"
+                src="../IMAGES/BEZ.jpeg"
+                style="width: 20rem"
+              />
+              <div calss="card-body">
+                <h4>Cars</h4>
+                <p><b>raceful</b></p>
+              </div>
+            </div>
+          </div>
+
+          <div style="padding: 10px">
+            <div class="card" style="width: 20rem; height: 20rem">
+              <div calss="card-body">
+                <h4>Cars</h4>
+                <p><b>raceful</b></p>
+              </div>
+              <img
+                class="card-img-bottom"
+                src="../IMAGES/CESAR.jpeg"
+                alt="role model"
+                style="width: 20rem"
+              />
+            </div>
+          </div>
+
+          <div style="padding: 10px">
+            <div
+              class="card"
+              style="width: 20rem; height: 20rem; background-color: aqua"
+            >
+              <div class="card-title">tutle</div>
+              <div class="card-body">
+                <p>this is the card related to bootstrap</p>
+              </div>
+              <div class="card-footer">
+                <button>ok</button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div style="padding: 10px">
+          <div class="card" style="width: 20rem; height: 20rem">
+            <img
+              class="card-img-top"
+              src="../IMAGES/JEEP.jpeg"
+              alt="role model"
+              style="width: 20rem"
+            />
+            <div calss="card-img-overlay">
+              <h4>Cars</h4>
+              <p><b>raceful</b></p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane container" id="link1">
+        <p>this is Link1</p>
+
+        <div style="padding-right: 900px">
+          <div class="d-flex" style="width: 800px; height: 50%">
+            <ul class="list-group" style="border-color: blue">
+              <li class="list-group-item">1</li>
+              <li class="list-group-item">2</li>
+              <li class="list-group-item active">3</li>
+              <li class="list-group-item disabled">4</li>
+              <li class="list-group-item">5</li>
+            </ul>
+
+            <ol class="list-group" style="border-color: yellow">
+              <li class="list-group-item">1</li>
+              <li class="list-group-item">2</li>
+              <li class="list-group-item active">3</li>
+              <li class="list-group-item disabled">4</li>
+              <li class="list-group-item">5</li>
+            </ol>
+
+            <ol
+              class="list-group list-group-numbered"
+              style="border-color: red"
+            >
+              <li class="list-group-item">1</li>
+              <li class="list-group-item">2</li>
+              <li class="list-group-item active">3</li>
+              <li class="list-group-item disabled">4</li>
+              <li class="list-group-item">5</li>
+            </ol>
+          </div>
+        </div>
+
+        <div style="align-content: center">
+          <ul class="pagination justify-content-center">
+            <li class="page-item">
+              <a class="page-link" href="#"> previous </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="https://www.youtube.com/"> 1 </a>
+            </li>
+            <li class="page-item">
+              <a
+                class="page-link"
+                href="https://www.amazon.in/?&ext_vrnc=hi&tag=googinhydr1-21&ref=pd_sl_98xjxt98l7_e&adgrpid=60639568242&hvpone=&hvptwo=&hvadid=617721280315&hvpos=&hvnetw=g&hvrand=1791684939507244635&hvqmt=e&hvdev=c&hvdvcmdl=&hvlocint=&hvlocphy=9062013&hvtargid=kwd-316976916880&hydadcr=5841_2362028"
+              >
+                2
+              </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#"> 3 </a>
+            </li>
+            <li class="page-item disabled">
+              <a class="page-link" href="#"> 4 </a>
+            </li>
+            <li class="page-item active">
+              <a class="page-link" href="#"> 5 </a>
+            </li>
+            <li class="page-item">
+              <a class="page-link" href="#"> next </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="tab-pane container" id="link2">
+        <p>this is Link2</p>
+      </div>
+      <div class="tab-pane container" id="link3">
+        <p>this is Link3</p>
+      </div>
+    </div>
+  </body>
+</html>
