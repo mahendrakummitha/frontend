@@ -1,0 +1,748 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>BootStrap Website1</title>
+    <link rel="title icon" type="image/jpeg" href="../IMAGES/ironhot.jpg" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/83f52ad030.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="admin.css" />
+  </head>
+  <body>
+    <nav class="navbar bg-dark" style="height: 50px">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <div class="row">
+            <div>
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a
+                    href="#"
+                    class="nav-link"
+                    style="padding-left: 20px"
+                    data-bs-toggle="modal"
+                    data-bs-target="#msg"
+                  >
+                    <i class="fas fa-comments text-white"></i
+                  ></a>
+                </li>
+                <!-- <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fas fa-bell text-white"></i
+                    ></a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="nav-link">
+                      <i class="fas fa-sign-out-alt text-white"></i
+                    ></a>
+                  </li> -->
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!--modal-->
+    <div class="modal fade" id="msg">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title">Want to leave ?</h4>
+            <button type="button" class="close" data-bs-dismiss="modal">
+              &times;
+            </button>
+          </div>
+          <div class="modal-body">Press logout to leave</div>
+          <div class="modal-footer">
+            <button class="btn btn-success close" data-bs-dismiss="modal">
+              Stay Here
+            </button>
+            <button class="btn btn-danger close" data-bs-dismiss="modal">
+              leave
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--end of modal-->
+
+    <!--Cards-->
+    <section>
+      <div class="container-fluid">
+        <div class="row mb-5">
+          <div class="col-xl-10 col-md-8 col-lg-9">
+            <div class="row">
+              <div class="col-xl-3 col-sm-6 p-2">
+                <div class="card card-common">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <i class="fas fa-shopping-cart fa-3x text-warning"> </i>
+                      <div class="text-end">
+                        <h5>Sales</h5>
+                        <h3>Rs135000</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer text-secondary">
+                    <i class="fas fa-sync me-3"></i>
+                    <span>Updated Now</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-xl-3 p-2">
+                <div class="card card-common">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <i class="fas fa-money-bill-alt fa-3x text-success"> </i>
+                      <div class="text-end">
+                        <h5>Expenses</h5>
+                        <h3>Rs10000</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer text-secondary">
+                    <i class="fas fa-sync me-3"></i>
+                    <span>Updated Now</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-xl-3 p-2">
+                <div class="card card-common">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <i class="fas fa-users fa-3x text-info"> </i>
+                      <div class="text-end">
+                        <h5>Users</h5>
+                        <h3>Rs15000</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer text-secondary">
+                    <i class="fas fa-sync me-3"></i>
+                    <span>Updated Now</span>
+                  </div>
+                </div>
+              </div>
+              <div class="col-sm-6 col-xl-3 p-2">
+                <div class="card card-common">
+                  <div class="card-body">
+                    <div class="d-flex justify-content-between">
+                      <i class="fas fa-chart-line fa-3x text-danger"> </i>
+                      <div class="text-end">
+                        <h5>Sales</h5>
+                        <h3>Rs135000</h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-footer text-secondary">
+                    <i class="fas fa-sync me-3"></i>
+                    <span>Updated Now</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3"></div>
+        </div>
+      </div>
+    </section>
+    <!--End of Cards-->
+
+    <!--Tables-->
+    <section>
+      <div class="contianer-fluid">
+        <div class="row" mb-8>
+          <div class="col-xl-10 col-lg-9 col-md-8"></div>
+          <div class="row align-items-center">
+            <div class="col-xl-6 col-12 mb-4">
+              <h3 class="text-muted text-center mb-3">Salary</h3>
+              <table class="table table-striped text-center bg-light m-2">
+                <thead>
+                  <tr class="text-muted">
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Salary</th>
+                    <th>Date</th>
+                    <th>Contact</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Mahendra</td>
+                    <td>10000k</td>
+                    <td>2032</td>
+                    <td>
+                      <button type="button" class="btn bg-info btn-sm">
+                        Message
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>2</td>
+                    <td>Anni</td>
+                    <td>20000k</td>
+                    <td>2032</td>
+                    <td>
+                      <button type="button" class="btn bg-info btn-sm">
+                        Error
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>3</td>
+                    <td>Anil</td>
+                    <td>1000k</td>
+                    <td>2032</td>
+                    <td>
+                      <button type="button" class="btn bg-info btn-sm">
+                        Done
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>4</td>
+                    <td>Raju</td>
+                    <td>100k</td>
+                    <td>2032</td>
+                    <td>
+                      <button type="button" class="btn bg-info btn-sm">
+                        Marriage
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <!--Pagination-->
+              <nav>
+                <ul class="pagination justify-content-center">
+                  <li class="page-item">
+                    <a href="#" class="page-link py-2 px-3"
+                      ><span>&laquo</span>
+                    </a>
+                  </li>
+                  <li class="page-item">
+                    <a href="#" class="page-link py-2 px-3">1 </a>
+                  </li>
+                  <li class="page-item active">
+                    <a href="#" class="page-link py-2 px-3">2 </a>
+                  </li>
+                  <li class="page-item">
+                    <a href="#" class="page-link py-2 px-3">3 </a>
+                  </li>
+                  <li class="page-item">
+                    <a href="#" class="page-link py-2 px-3"
+                      ><span>&raquo</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <!--end  of Pagination-->
+            </div>
+            <div class="col-xl-6 col-12">
+              <h3 class="text-muted text-center mb-3">Payments</h3>
+              <table
+                class="table-dark text-center bg-light table table-hover m-2"
+              >
+                <thead>
+                  <tr class="text-muted">
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Prive</th>
+                    <th>Date</th>
+                    <th>Status</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>1</td>
+                    <td>Mahendra</td>
+                    <td>10000k</td>
+                    <td>2022</td>
+                    <td>
+                      <span class="badge badge-success bg-success"
+                        >success</span
+                      >
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>2</td>
+                    <td>Anni</td>
+                    <td>20000k</td>
+                    <td>2032</td>
+                    <td>
+                      <span class="badge badge-success bg-warning"
+                        >pending</span
+                      >
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>3</td>
+                    <td>Anil</td>
+                    <td>1000k</td>
+                    <td>2062</td>
+                    <td>
+                      <span class="badge badge-success bg-danger">Error</span>
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>4</td>
+                    <td>Raju</td>
+                    <td>100k</td>
+                    <td>2082</td>
+                    <td>
+                      <span class="badge badge-success bg-warning"
+                        >pending</span
+                      >
+                    </td>
+                  </tr>
+                </tbody>
+                <tbody>
+                  <tr>
+                    <td>5</td>
+                    <td>Raj</td>
+                    <td>10k</td>
+                    <td>2082</td>
+                    <td>
+                      <span class="badge badge-success bg-warning"
+                        >pending</span
+                      >
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+              <!--Pagination-->
+              <nav>
+                <ul class="pagination justify-content-center">
+                  <li class="page-item">
+                    <a href="#" class="page-link py-2 px-3"
+                      ><span>Previous</span>
+                    </a>
+                  </li>
+                  <li class="page-item">
+                    <a href="#" class="page-link py-2 px-3">1 </a>
+                  </li>
+                  <li class="page-item active">
+                    <a href="#" class="page-link py-2 px-3">2 </a>
+                  </li>
+                  <li class="page-item">
+                    <a href="#" class="page-link py-2 px-3">3 </a>
+                  </li>
+                  <li class="page-item">
+                    <a href="#" class="page-link py-2 px-3"
+                      ><span>Next</span>
+                    </a>
+                  </li>
+                </ul>
+              </nav>
+              <!--end  of Pagination-->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end of Tables-->
+
+    <!--Progress/task list -->
+    <section>
+      <div class="container-fluid" style="padding-top: 100px">
+        <div class="row">
+          <div class="col-xl-10 col-lg-9 col-md-8">
+            <div class="row mb-4 align-items-center">
+              <div class="col-xl-6 col-12 mb-4 mb-xl-0">
+                <div class="bg-dark text-white p-4 rounded">
+                  <h4 class="mb-5">Conversion rates</h4>
+                  <h6 class="mb-3">Google chrome</h6>
+                  <div class="progress mb-4" style="height: 20px">
+                    <div
+                      class="progress-bar progress-bar-striped font-weight-bold bg-success"
+                      style="width: 91%"
+                    >
+                      91%
+                    </div>
+                  </div>
+                  <h6 class="mb-3">Firefox</h6>
+                  <div class="progress mb-4" style="height: 20px">
+                    <div
+                      class="progress-bar progress-bar-striped font-weight-bold"
+                      style="width: 82%"
+                    >
+                      82%
+                    </div>
+                  </div>
+                  <h6 class="mb-3">EDGE</h6>
+                  <div class="progress mb-4" style="height: 20px">
+                    <div
+                      class="progress-bar progress-bar-striped font-weight-bold bg-warning"
+                      style="width: 60%"
+                    >
+                      60%
+                    </div>
+                  </div>
+                  <h6 class="mb-3">IE</h6>
+                  <div class="progress mb-4" style="height: 20px">
+                    <div
+                      class="progress-bar progress-bar-striped font-weight-bold bg-danger"
+                      style="width: 10%"
+                    >
+                      10%
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-6 col-12">
+                <h4 class="text-muted p-3 mb-3">Tasks:</h4>
+                <div class="container-fluid bg-white">
+                  <div class="row py-3 mb-4 task-border align-items-center">
+                    <div class="col-1">
+                      <input type="checkbox" checked />
+                    </div>
+                    <div class="col-sm-9 col-8">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Reiciendis, rem!
+                    </div>
+                    <div class="col-1">
+                      <a
+                        href="#"
+                        data-bs-toggle="tooltip"
+                        title="<h6>edit</h6>"
+                        data-placement="bottom"
+                      >
+                        <i class="fas fa-edit fa-lg text-success mr-2"></i>
+                      </a>
+                    </div>
+                    <div class="col-1">
+                      <a
+                        href="#"
+                        data-bs-toggle="tooltip"
+                        title="<h6>delete</h6>"
+                        data-placement="bottom"
+                      >
+                        <i class="fas fa-trash-alt fa-lg text-danger mr-2"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="container-fluid bg-white">
+                  <div class="row py-3 mb-4 task-border align-items-center">
+                    <div class="col-1">
+                      <input type="checkbox" checked />
+                    </div>
+                    <div class="col-sm-9 col-8">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Reiciendis, rem!
+                    </div>
+                    <div class="col-1">
+                      <a
+                        href="#"
+                        data-bs-toggle="tooltip"
+                        title="<h6>edit</h6>"
+                        data-placement="bottom"
+                      >
+                        <i class="fas fa-edit fa-lg text-success mr-2"></i>
+                      </a>
+                    </div>
+                    <div class="col-1">
+                      <a
+                        href="#"
+                        data-bs-toggle="tooltip"
+                        title="<h6>delete</h6>"
+                        data-placement="bottom"
+                      >
+                        <i class="fas fa-trash-alt fa-lg text-danger mr-2"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="container-fluid bg-white">
+                  <div class="row py-3 mb-4 task-border align-items-center">
+                    <div class="col-1">
+                      <input type="checkbox" checked />
+                    </div>
+                    <div class="col-sm-9 col-8">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Reiciendis, rem!
+                    </div>
+                    <div class="col-1">
+                      <a
+                        href="#"
+                        data-bs-toggle="tooltip"
+                        title="<h6>edit</h6>"
+                        data-placement="bottom"
+                      >
+                        <i class="fas fa-edit fa-lg text-success mr-2"></i>
+                      </a>
+                    </div>
+                    <div class="col-1">
+                      <a
+                        href="#"
+                        data-bs-toggle="tooltip"
+                        title="<h6>delete</h6>"
+                        data-placement="bottom"
+                      >
+                        <i class="fas fa-trash-alt fa-lg text-danger mr-2"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="container-fluid bg-white">
+                  <div class="row py-3 mb-4 task-border align-items-center">
+                    <div class="col-1">
+                      <input type="checkbox" checked />
+                    </div>
+                    <div class="col-sm-9 col-8">
+                      Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                      Reiciendis, rem!
+                    </div>
+                    <div class="col-1">
+                      <a
+                        href="#"
+                        data-bs-toggle="tooltip"
+                        title="<h6>edit</h6>"
+                        data-placement="bottom"
+                      >
+                        <i class="fas fa-edit fa-lg text-success mr-2"></i>
+                      </a>
+                    </div>
+                    <div class="col-1">
+                      <a
+                        href="#"
+                        data-bs-toggle="tooltip"
+                        title="<h6>delete</h6>"
+                        data-placement="bottom"
+                      >
+                        <i class="fas fa-trash-alt fa-lg text-danger mr-2"></i>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end of Progress/task list -->
+    <!--activites-->
+    <section>
+      <div class="contianer-fluid">
+        <div class="row">
+          <div class="col-xl-10 col-lg-9 col-md-8">
+            <div class="row">
+              <div class="col-xl-7">
+                <h4 class="text-muted mb-4">Recent Customer Activities</h4>
+                <div id="accordion">
+                  <div class="card">
+                    <div class="card-header">
+                      <button
+                        class="btn btn-block bg-secondary text-light text-start"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse1"
+                        style="width: 100%"
+                      >
+                        <img
+                          src="./adminbootstrapimages/luffy.jpg"
+                          width="50"
+                          class="me-3 rounded"
+                        />Luffy gear-3
+                      </button>
+                    </div>
+                    <div
+                      class="collapse show"
+                      id="collapse1"
+                      data-bs-parent="accordion"
+                    >
+                      <div class="card-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Dolorum nulla natus debitis facilis! Dolores
+                        minima, laudantium optio expedita doloremque
+                        praesentium?
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      <button
+                        class="btn btn-block bg-secondary text-light text-start"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse2"
+                        style="width: 100%"
+                      >
+                        <img
+                          src="./adminbootstrapimages/naruto.jpg"
+                          width="50"
+                          class="me-3 rounded"
+                        />Naruto God mode
+                      </button>
+                    </div>
+                    <div
+                      class="collapse"
+                      id="collapse2"
+                      data-bs-parent="accordion"
+                    >
+                      <div class="card-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Dolorussssssssss m nulla natus debitis facilis!
+                        Dolores minima, laudantium optio expedita doloremque
+                        praesentium?
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      <button
+                        class="btn btn-block bg-secondary text-light text-start"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse3"
+                        style="width: 100%"
+                      >
+                        <img
+                          src="./adminbootstrapimages/obitaomass.jpg"
+                          width="50"
+                          class="me-3 rounded"
+                        />Obito
+                      </button>
+                    </div>
+                    <div
+                      class="collapse"
+                      id="collapse3"
+                      data-bs-parent="accordion"
+                    >
+                      <div class="card-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Dolorum nulla natus debitis facilis! Dolores
+                        minima, laudantium optio expedita doloremque
+                        praesentium?
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      <button
+                        class="btn btn-block bg-secondary text-light text-start"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse4"
+                        style="width: 100%"
+                      >
+                        <img
+                          src="./adminbootstrapimages/kakashi.jpg"
+                          width="50"
+                          class="me-3 rounded"
+                        />Kakashi
+                      </button>
+                    </div>
+                    <div
+                      class="collapse"
+                      id="collapse4"
+                      data-bs-parent="accordion"
+                    >
+                      <div class="card-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Dolorum nulla natus debitis facilis! Dolores
+                        minima, laudantium optio expedita doloremque
+                        praesentium?
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      <button
+                        class="btn btn-block bg-secondary text-light text-start"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse5"
+                        style="width: 100%"
+                      >
+                        <img
+                          src="./adminbootstrapimages/godmode.webp"
+                          width="50"
+                          class="me-3 rounded"
+                        />Godmode
+                      </button>
+                    </div>
+                    <div
+                      class="collapse"
+                      id="collapse5"
+                      data-bs-parent="accordion"
+                    >
+                      <div class="card-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Dolorum nulla natus debitis facilis! Dolores
+                        minima, laudantium optio expedita doloremque
+                        praesentium?
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header">
+                      <button
+                        class="btn btn-block bg-secondary text-light text-start"
+                        data-bs-toggle="collapse"
+                        data-bs-target="#collapse6"
+                        style="width: 100%"
+                      >
+                        <img
+                          src="./adminbootstrapimages/luffy head.jpg"
+                          width="50"
+                          class="me-3 rounded"
+                        />luffy head
+                      </button>
+                    </div>
+                    <div
+                      class="collapse"
+                      id="collapse6"
+                      data-bs-parent="accordion"
+                    >
+                      <div class="card-body">
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Dolorum nulla natus debitis facilis! Dolores
+                        minima, laudantium optio expedita doloremque
+                        praesentium?
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-xl-5"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--end of activites-->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./admin.js"></script>
+  </body>
+</html>
